@@ -1,6 +1,20 @@
+/*First page contenteditable.html*/
 #editableElement {
     background-color: aquamarine;
     width: 400px;
     height: 200px;
     padding: 10px;
+}
+
+/*Second page drawing.html*/
+h2 {
+    margin: 5px auto;
+}
+canvas {
+    border: 1px dashed black;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    display:block;
+    margin: 5px auto;
 }
