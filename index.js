@@ -23,11 +23,19 @@ document.getElementById("stop").onclick = function() {
 
 //Second page: drawing.html
 //Drawing after the event onclick over the canvas element
-document.getElementById("whiteBoard").onclick = function() {
-    const canvas = document.getElementById("whiteBoard");
+/*document.getElementById("whiteBoard").onclick = function() {
+    
+    let canvas = document.getElementById("whiteBoard");
     let context = canvas.getContext("2d");
     //Set the first line width and color
     context.lineWidth = 30;
     context.strokeStyle = "rgb(205, 40, 40)";
-     
-};
+    //Draw the first line with the standard butt ending
+    context.moveTo(25,50); //(horizontal/vertical)
+    context.lineTo(400,120);
+    context.lineCap = "butt";
+    context.stroke(); //stroke method draws the line within the canvas tag 
+
+    console.log("canvas clicked");
+};*/
+
