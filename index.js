@@ -1,3 +1,4 @@
+//First page: contenteditable.html
 //Create the startEdit function and assing the contentEditable property to true
 function startEdit() {
     let element = document.getElementById("editableElement");
@@ -18,4 +19,15 @@ document.getElementById("edit").onclick = function() {
 };
 document.getElementById("stop").onclick = function() {
     stopEdit();
+};
+
+//Second page: drawing.html
+//Drawing after the event onclick over the canvas element
+document.getElementById("whiteBoard").onclick = function() {
+    const canvas = document.getElementById("whiteBoard");
+    let context = canvas.getContext("2d");
+    //Set the first line width and color
+    context.lineWidth = 30;
+    context.strokeStyle = "rgb(205, 40, 40)";
+     
 };
