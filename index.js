@@ -31,7 +31,7 @@ document.getElementById("stop").onclick = function() {
 document.getElementById("whiteBoard").onclick = function() {
     let canvas = document.getElementById("whiteBoard");
     let context = canvas.getContext("2d");
-//Set the first line width and color
+//Set the first line width and colour
     context.lineWidth = 30;
     context.strokeStyle = "rgb(205, 40, 40)";
 //Draw the first line with the standard butt ending
@@ -49,4 +49,3 @@ document.getElementById("whiteBoard").onclick = function() {
     context.lineCap = "butt";
     context.stroke();
 };
-
