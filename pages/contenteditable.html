@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="../style.css">
     <title>HTML5 Content Editable</title>
 </head>
-<body>
+<body id="editable">
     <header>
         <a href="../index.html">Back to home page</a>
         <hr>
     </header>
     <main>
         <h1>HTML5 contentEditable</h1>
-        <button id="edit">Start Editing</button>
-        <button id="stop">Stop Editing</button>
+        <button id="edit" onclick="startEdit();">Start Editing</button>
+        <button id="stop" onclick="stopEdit();">Stop Editing</button>
         <p id="editableElement"></p>
     </main>
     <script src="../index.js"></script>
